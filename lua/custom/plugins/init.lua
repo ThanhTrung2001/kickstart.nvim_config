@@ -2,4 +2,11 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+    {import = "custom/plugins/color",},
+    {import = "custom/plugins/coding",},
+    -- {import = "custom/plugins/front",},
+    -- {import = "custom/plugins/back",},
+    -- {import = "custom/plugins/flutter",},
+    {import = "custom/plugins",},
+}
